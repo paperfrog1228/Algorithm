@@ -28,24 +28,24 @@ int main(void) {
 	vector<int> table = makeTable(pattern);
 	int j =0;
 	for(int i = 0 ; i < t.size(); i++){
+
 		while(j>0 && t[i] != pattern[j])
 			j = table[j-1];
 		if(t[i]==pattern[j]){
 			if(j==pattern.size()-1){
-				ans.push_back(i-pattern.size()+1);
-				printf("%d\n",i);
-				printf("%d",pattern.size());
+				ans.push_back(i-pattern.size()+2);
 				j = table[j];
 			}
 			else j++;
 		}
 	}
+		printf("%d\n",(int)ans.size());
 
-	printf("%d\n",ans.size());
 	for(int i = 0; i < ans.size(); i++)
-		printf("sex:%d ",ans[i]);
-	system("pause > nul");
+		printf("%d ",ans[i]);
+		
 
 	return 0;
 	
 }
+
