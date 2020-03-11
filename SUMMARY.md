@@ -25,11 +25,11 @@
     * [3. 코딩과 디버깅에 관하여](books/undefined/1/3..md)
     * [4. 알고리즘의 시간 복잡도 분석](books/undefined/1/4..md)
     * [6. 무식하게 풀기](books/undefined/1/6..md)
+    * [7. 분할 정복](books/undefined/1/7..md)
   * [2️⃣권](books/undefined/2.md)
 
 ## 👨‍🏫 Lecture
 
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
-* [7. 분할 정복](7..md)
 
