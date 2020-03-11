@@ -31,4 +31,5 @@
 
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
+* [7. 분할 정복](7..md)
 
