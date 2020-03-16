@@ -5,6 +5,7 @@
 ## 🐳 Algorithm
 
 * [🗺️ Graph](algorithm/graph/README.md)
+  * [Topological Sort](algorithm/graph/topological-sort.md)
   * [Floyd-Warshall](algorithm/graph/floyd-warshall.md)
   * [Union Find](algorithm/graph/untitled.md)
   * [Kruskal Algorithm](algorithm/graph/kruskal-algorithm.md)
