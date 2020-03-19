@@ -1,0 +1,12 @@
+#include<stdio.h>
+void TestCase(){
+    int n;
+    scanf("%d",&n);
+    printf("1 %d\n",n-1);
+}
+int main(){
+    int t;
+    scanf("%d",&t);
+    for(int i=1;i<=t;i++)
+    TestCase();
+}
