@@ -33,4 +33,6 @@
 
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
+* [Sort](sort.md)
+* [Sort2](sort2.md)
 
