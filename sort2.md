@@ -8,7 +8,7 @@
 * 정복 : 각각의 작은 문제를 순환적으로 해결
 * 합병 : 작은 문제의 해를 합하여\(merge\) 원리 문제에 대한 해를 구함
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ```text
 MergeSort(A[], p, r){
@@ -28,7 +28,7 @@ Merge(A[], p, q, r){
 
 ### 시간복잡도
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 
 
@@ -40,7 +40,7 @@ Merge(A[], p, q, r){
 * 정복 : 각 부분을 순환적으로 정렬
 * 합병 : nothing to do
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 ```text
 QuickSort(A[], p, r){
@@ -73,23 +73,23 @@ Partition(A[], p, r){
 
 #### 항상 한 쪽은 0개, 다른 쪽은 n-1개로 분할되는 경우\(최악\)
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 
 
 #### 항상 절반으로 분할되는 경우
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 #### 
 
 #### 항상 한쪽이 적어도 1/9 이상이 되도록 분할된다면?
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 #### 평균 시간복잡
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2821%29.png)
 
 
 

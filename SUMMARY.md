@@ -35,4 +35,6 @@
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
 * [Sort](sort.md)
 * [Sort2](sort2.md)
+* [Sort3](sort3.md)
+* [Untitled](untitled.md)
 

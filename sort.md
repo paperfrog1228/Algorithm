@@ -4,7 +4,7 @@
 
 배열을 순회하면서 가장 큰 값을 찾아 맨 뒤에 위치해주는 것을 반복.
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 ```text
 SelectionSort(A[],n){
@@ -21,7 +21,7 @@ SelectionSort(A[],n){
 
 선택 정렬과 비슷하지만 선택한 값을 맨 뒤로 보내는 것이 아니다
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%287%29.png)
 
 ```text
 BubbleSort(A[], n){
@@ -31,15 +31,37 @@ BubbleSort(A[], n){
 }
 ```
 
-
+```cpp
+#include<stdio.h>
+int n,arr[1000005];
+void BubbleSort(int A[]){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<n;j++){
+            if(arr[j]>arr[j+1]){
+                int tmp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=tmp;
+            }
+        }
+    }
+}
+int main(){
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    scanf("%d",&arr[i]);
+    BubbleSort(arr);
+    for(int i=1;i<=n;i++)
+    printf("%d ",arr[i]);
+}
+```
 
 ## Insertion Sort
 
 배열 순회하면서 데이터 하나 딱 골라서, 그 데이터 앞에까지 다 순회 조져서 적절한 위치에 끼워넣는 것.
 
-![](.gitbook/assets/image.png)
-
 ![](.gitbook/assets/image%20%281%29.png)
+
+![](.gitbook/assets/image%20%282%29.png)
 
 배열의 경우 적절한 위치에 삽입 할 때 쉬프트가 일어나기 때문에 뒤에서 보는게 이득이다.
 
