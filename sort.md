@@ -4,7 +4,7 @@
 
 배열을 순회하면서 가장 큰 값을 찾아 맨 뒤에 위치해주는 것을 반복.
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 ```text
 SelectionSort(A[],n){
@@ -21,7 +21,7 @@ SelectionSort(A[],n){
 
 선택 정렬과 비슷하지만 선택한 값을 맨 뒤로 보내는 것이 아니다
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 ```text
 BubbleSort(A[], n){
