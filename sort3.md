@@ -27,6 +27,21 @@ MAX-HEAPIFY(A, i){   //노드 i를 루트로하는 서브트리를 heapify.
 }
 ```
 
+```cpp
+void Heapify(int i){
+    int c= 2 * i +1;
+    if(c<n&&p[c].x<p[c+1].x)
+        c++;
+    if(p[i].x<p[c].x){
+        point tmp=p[i];
+        p[i]=p[c];
+        p[c]=tmp;
+    }
+    if(c<=n/2)
+    Heapify(c);
+}
+```
+
 ## Heap sort
 
 1. 주어진 데이터로 힙을 만든다. 
@@ -43,6 +58,27 @@ HEAPSORT(A)
 4.	  heap_size ← heap_size - 1			: O(1)
 5.	  MAX-HEAPFIY(A,1)					: O(log2n)
 ```
+
+```cpp
+void HeapSort(int A[]){
+    for (int i=n-1;i>=0;i--) { 
+		point tmp = p[0];
+		Swap(A[0],A[i]);
+		int root = 0;
+		int c = 1;
+		do {
+			c = 2 * root + 1;
+			if(c<i-1&&A[c]<A[c+1]) 
+				c++;
+			if(c < i && A[root] < A[c])
+				Swap(A[root],A[c]);
+			root = c;
+		} while (c < i);
+	}
+}
+```
+
+
 
 ![](.gitbook/assets/image.png)
 
