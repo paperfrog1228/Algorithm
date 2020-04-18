@@ -15,7 +15,22 @@ SelectionSort(A[],n){
 }
 ```
 
-
+```cpp
+void SelectionSort(int A[],int n){
+    for(int i=n;i>1;i--){
+        int max=0,max_index=0;
+        for(int j=1;j<=i;j++){
+            if(A[j]>max){
+                max=A[j];
+                max_index=j;
+            }
+        }
+        int tmp=A[i];
+        A[i]=A[max_index];
+        A[max_index]=tmp;
+    }
+}
+```
 
 ## Bubble Sort
 
@@ -32,9 +47,7 @@ BubbleSort(A[], n){
 ```
 
 ```cpp
-#include<stdio.h>
-int n,arr[1000005];
-void BubbleSort(int A[]){
+void BubbleSort(int A[],int n){
     for(int i=1;i<=n;i++){
         for(int j=1;j<n;j++){
             if(arr[j]>arr[j+1]){
@@ -44,14 +57,6 @@ void BubbleSort(int A[]){
             }
         }
     }
-}
-int main(){
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++)
-    scanf("%d",&arr[i]);
-    BubbleSort(arr);
-    for(int i=1;i<=n;i++)
-    printf("%d ",arr[i]);
 }
 ```
 
@@ -75,5 +80,19 @@ InsertionSort(A[], n){
 }
 ```
 
-
+```cpp
+void InsertionSort(int A[],int n){
+    for(int i=1;i<=n;i++){
+        int tmp=A[i];
+        int j;
+        for(j=i-1;j>0;j--){
+            if(A[j]tmp)
+            A[j+1]=A[j];
+            else
+                break;
+        }
+        A[j+1]=tmp;
+    }
+}
+```
 

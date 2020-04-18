@@ -51,18 +51,17 @@ QuickSort(A[], p, r){
         
     }
 }
-
 Partition(A[], p, r){
     배열 A[p...r]의 원소들을 A[r]을 기준으로 양쪽으로 재배치하고
     A[r]이 자리한 위치를 return;
-    x=A[r]// Pivot
-    i=p-1;
-    for(j=p;j<r;j++){
-        if(A[j]<=x)
-            i++;
-            swap(A[i],A[j]);
+    x<-A[r]// Pivot
+    i<-p-1;
+    for j<-p to r-1{
+        if A[j]<=x then
+            i<-i+1;
+          exchange A[i] and A[j];
     }
-    Swap(A[i+r],A[r]);
+    exchange A[i+r] and A[r];
     return i+1;
 }
 ```
