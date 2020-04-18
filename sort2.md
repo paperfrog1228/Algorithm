@@ -61,12 +61,72 @@ Partition(A[], p, r){
             i<-i+1;
           exchange A[i] and A[j];
     }
-    exchange A[i+r] and A[r];
+    exchange A[i+1] and A[r];
     return i+1;
 }
 ```
 
+```cpp
+void QuickSort(word A[],int p,int r){
+    if(p>r) return;
+    int q=Partition(A,p,r);
+    QuickSort(A,p,q-1);
+    QuickSort(A,q+1,r);
+}
+```
 
+```cpp
+int Partition(word A[],int p,int r){
+    srand(time(null);
+    int pivot_index=(p+r)/2;
+    int pivot=A[pivot_index];
+    Swap(A[r],A[pivot_index]);
+    int i=p;
+    for(int j=p;j<r;j++){
+        if(A[j]<pivot){
+            Swap(A[i],A[j]);
+            i++;
+        }
+    }
+    Swap(A[i],A[r]);
+    return i;
+}
+```
+
+```cpp
+int Partition(int A[],int p,int r){
+    int pivot=A[r];//피벗 마지막 값
+    int i=p;
+    for(int j=p;j<r;j++){
+        if(A[j]<=pivot){
+            Swap(A[i],A[j]);
+            i++;
+        }
+    }
+    Swap(A[i],A[r]);
+    return i;
+}
+```
+
+```cpp
+#include <random>
+#include <time.h>
+int Partition(word A[],int p,int r){
+    srand(time(null);
+    int pivot_index=rand() % (r + 1 - p)+p;
+    int pivot=A[pivot_index];
+    Swap(A[r],A[pivot_index]);
+    int i=p;
+    for(int j=p;j<r;j++){
+        if(A[j]<pivot){
+            Swap(A[i],A[j]);
+            i++;
+        }
+    }
+    Swap(A[i],A[r]);
+    return i;
+}
+```
 
 ### 시간 복잡도
 
@@ -94,7 +154,7 @@ Partition(A[], p, r){
 
 
 
-### Pivot의 선
+### Pivot의 선택
 
 #### 첫번째 값이나 마지막 값을 피봇으로 선택
 
