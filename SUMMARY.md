@@ -39,4 +39,5 @@
 * [Untitled](untitled.md)
 * [Tree](tree/README.md)
   * [Binary Tree](tree/binary-tree.md)
+* [Hashing](hashing.md)
 
