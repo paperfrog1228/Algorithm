@@ -27,6 +27,7 @@
     * [4. 알고리즘의 시간 복잡도 분석](books/undefined/1/4..md)
     * [6. 무식하게 풀기](books/undefined/1/6..md)
     * [7. 분할 정복](books/undefined/1/7..md)
+    * [10. 탐욕법](books/undefined/1/10..md)
   * [2️⃣권](books/undefined/2.md)
 
 ## 👨‍🏫 Lecture
