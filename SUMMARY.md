@@ -32,13 +32,17 @@
 
 ## 👨‍🏫 Lecture
 
+* [🌟권오흠 교수님의 알고리즘](lecture/undefined-1/README.md)
+  * [제3장 정렬\(sorting\)](lecture/undefined-1/3-sorting/README.md)
+    * [Sort\(n²\)](lecture/undefined-1/3-sorting/sort.md)
+    * [Sort\(nlogn\)](lecture/undefined-1/3-sorting/sort2.md)
+    * [Sort\(Heap Sort\)](lecture/undefined-1/3-sorting/sort3.md)
+    * [Sort4](lecture/undefined-1/3-sorting/untitled.md)
+  * [제4장 검색트리](lecture/undefined-1/tree/README.md)
+    * [Binary Tree](lecture/undefined-1/tree/binary-tree.md)
+  * [제5장 해슁\(Hashing\)](lecture/undefined-1/hashing.md)
+  * [제6장 그래프 알고리즘](lecture/undefined-1/6/README.md)
+    * [최소 신장 트리\(MST\)](lecture/undefined-1/6/mst.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
-* [Sort](sort.md)
-* [Sort2](sort2.md)
-* [Sort3](sort3.md)
-* [Untitled](untitled.md)
-* [Tree](tree/README.md)
-  * [Binary Tree](tree/binary-tree.md)
-* [Hashing](hashing.md)
 
