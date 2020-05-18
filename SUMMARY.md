@@ -21,28 +21,29 @@
 ## 📚 Books
 
 * [📖 알고리즘문제 해결 전략](books/undefined/README.md)
-  * [1️⃣권](books/undefined/1/README.md)
+  * [1️⃣](books/undefined/1/README.md)
     * [2. 문제 해결 개관](books/undefined/1/2..md)
     * [3. 코딩과 디버깅에 관하여](books/undefined/1/3..md)
     * [4. 알고리즘의 시간 복잡도 분석](books/undefined/1/4..md)
     * [6. 무식하게 풀기](books/undefined/1/6..md)
     * [7. 분할 정복](books/undefined/1/7..md)
     * [10. 탐욕법](books/undefined/1/10..md)
-  * [2️⃣권](books/undefined/2.md)
+  * [2️⃣](books/undefined/2.md)
 
 ## 👨‍🏫 Lecture
 
-* [🌟권오흠 교수님의 알고리즘](lecture/undefined-1/README.md)
-  * [제3장 정렬\(sorting\)](lecture/undefined-1/3-sorting/README.md)
+* [🌟Oh-Heum Kwon's Algorithm](lecture/undefined-1/README.md)
+  * [3. Sorting](lecture/undefined-1/3-sorting/README.md)
     * [Sort\(n²\)](lecture/undefined-1/3-sorting/sort.md)
     * [Sort\(nlogn\)](lecture/undefined-1/3-sorting/sort2.md)
     * [Sort\(Heap Sort\)](lecture/undefined-1/3-sorting/sort3.md)
     * [Sort4](lecture/undefined-1/3-sorting/untitled.md)
-  * [제4장 검색트리](lecture/undefined-1/tree/README.md)
+  * [4. Search Tree](lecture/undefined-1/tree/README.md)
     * [Binary Tree](lecture/undefined-1/tree/binary-tree.md)
-  * [제5장 해슁\(Hashing\)](lecture/undefined-1/hashing.md)
-  * [제6장 그래프 알고리즘](lecture/undefined-1/6/README.md)
-    * [최소 신장 트리\(MST\)](lecture/undefined-1/6/mst.md)
+  * [5. Hashing](lecture/undefined-1/hashing.md)
+  * [6. Graph](lecture/undefined-1/6/README.md)
+    * [Minimum Spanning Tree](lecture/undefined-1/6/mst.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
+* [Untitled](untitled.md)
 

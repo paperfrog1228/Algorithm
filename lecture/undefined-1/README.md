@@ -2,7 +2,7 @@
 description: HE IS LEGENO
 ---
 
-# 🌟권오흠 교수님의 알고리즘
+# 🌟Oh-Heum Kwon's Algorithm
 
 2020년 1학기 수업.
 

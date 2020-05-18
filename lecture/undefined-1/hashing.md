@@ -1,4 +1,4 @@
-# 제5장 해슁\(Hashing\)
+# 5. Hashing
 
 ## Hash Table
 

@@ -1,8 +1,8 @@
 ---
-description: Minimum Spanning Tree
+description: 최소 신장 트리~
 ---
 
-# 최소 신장 트리\(MST\)
+# Minimum Spanning Tree
 
 최소 신장트리는 다양한 분야에서 응용되는 가장 기본적인 그래프 문제이다.
 
