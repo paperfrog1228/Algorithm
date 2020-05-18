@@ -38,3 +38,7 @@ A가 공집합에서 시작했으므로 임의의 스텝에서 A를 포함하는
 교수님의 Union-Find 수업 들어보니 왜 그런지 이해가 되었다.   
 내가 알고 있는 Union-Find는 극히 일부였었다..
 
+### 시간복잡도
+
+![](../../../../../.gitbook/assets/kruskal_timecomplex.JPG)
+
