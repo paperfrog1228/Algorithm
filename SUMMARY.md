@@ -42,8 +42,9 @@
     * [Binary Tree](lecture/undefined-1/tree/binary-tree.md)
   * [5. Hashing](lecture/undefined-1/hashing.md)
   * [6. Graph](lecture/undefined-1/6/README.md)
-    * [Minimum Spanning Tree](lecture/undefined-1/6/mst.md)
+    * [Minimum Spanning Tree](lecture/undefined-1/6/mst/README.md)
+      * [Kruskal Algorithm](lecture/undefined-1/6/mst/untitled/README.md)
+        * [Union Find](lecture/undefined-1/6/mst/untitled/union-find.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
-* [Untitled](untitled.md)
 
