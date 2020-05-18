@@ -45,6 +45,7 @@
     * [Minimum Spanning Tree](lecture/undefined-1/6/mst/README.md)
       * [Kruskal Algorithm](lecture/undefined-1/6/mst/untitled/README.md)
         * [Union Find](lecture/undefined-1/6/mst/untitled/union-find.md)
+      * [Prim Algorithm](lecture/undefined-1/6/mst/prim-algorithm.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
 
