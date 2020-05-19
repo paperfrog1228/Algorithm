@@ -40,13 +40,15 @@ l~~og\*N 은 알아서 찾아보~~
 * 각 트리의 크기\(노드의 개수\)를 카운트하고 있어야 
 * 트리 높이를 그마나 줄일 수 있다.
 
-![](../../../../../.gitbook/assets/weightunion.JPG)
+![&#xC774;&#xAC70; p\[x\]=y, p\[y\]=x &#xBC14;&#xB00C;&#xC5C8;&#xB124;](../../../../../.gitbook/assets/weightunion.JPG)
 
 ### 
 
 ### Path Compression
 
 * Find에서 해줘야할 작업
+* 아래 코드가 그림처럼 만들어주지는 않음. 그저 h의 경로 높이를 절반정도로 만들어준다.
+* 모르겠으면 손으로 적어보
 
 ![](../../../../../.gitbook/assets/path_compression.JPG)
 
