@@ -48,4 +48,5 @@
       * [Prim Algorithm](lecture/undefined-1/6/mst/prim-algorithm.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
+* [Shortest Path](shortest-path.md)
 
