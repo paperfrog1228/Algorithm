@@ -47,6 +47,7 @@
         * [Union Find](lecture/undefined-1/6/mst/untitled/union-find.md)
       * [Prim Algorithm](lecture/undefined-1/6/mst/prim-algorithm.md)
     * [Shortest Path](lecture/undefined-1/6/shortest-path/README.md)
+      * [Dijkstra Algorithm](lecture/undefined-1/6/shortest-path/dijkstra-algorithm.md)
       * [Bellman-Ford Algorithm](lecture/undefined-1/6/shortest-path/bellman-ford-algorithm.md)
 * [이름 모를 인강](lecture/undefined/README.md)
   * [printf & scanf](lecture/undefined/printf-and-scanf.md)
