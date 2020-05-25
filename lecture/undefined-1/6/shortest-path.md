@@ -19,7 +19,7 @@ description: 최단경로
 
 ## 최단경로와 음수 가중치
 
-![](.gitbook/assets/shortestpathminus.jpg)
+![](../../../.gitbook/assets/shortestpathminus.jpg)
 
 알고리즘에 따라 음수 가중치가 있어도 작동하는 경우도 있고 그렇지 않은 경우도 있음.
 
@@ -33,7 +33,7 @@ description: 최단경로
 
 최단 경로의 어떤 부분경로도 역시 최단 경로이다. 즉 최단 경로는 모든 최단 경로의 합이다.
 
-![](.gitbook/assets/shortestpath_in_shortestpath.jpg)
+![](../../../.gitbook/assets/shortestpath_in_shortestpath.jpg)
 
 또한 최단 경로는 사이클을 포함 하지 않는다.
 
@@ -68,9 +68,9 @@ d\[v\]는 현재까지 찾은 최소한의 경로의 길이가 되며 꾸준히 
 
 ### 기본 연산: Relaxation
 
-![\(&#xC67C;&#xCABD;\) &#xB354; &#xC9E7;&#xC740; &#xACBD;&#xB85C;&#xB97C; &#xCC3E;&#xC544;&#xC11C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD568;/\(&#xC624;&#xB978;&#xCABD;\) &#xC0C8;&#xB85C; &#xCC3E;&#xC740; &#xACBD;&#xB85C;&#xAC00; &#xB354; &#xAE38;&#xC5B4;&#xC11C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD558;&#xC9C0; &#xC54A;&#xC74C;](.gitbook/assets/relaxtion_ex.jpg)
+![\(&#xC67C;&#xCABD;\) &#xB354; &#xC9E7;&#xC740; &#xACBD;&#xB85C;&#xB97C; &#xCC3E;&#xC544;&#xC11C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD568;/\(&#xC624;&#xB978;&#xCABD;\) &#xC0C8;&#xB85C; &#xCC3E;&#xC740; &#xACBD;&#xB85C;&#xAC00; &#xB354; &#xAE38;&#xC5B4;&#xC11C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD558;&#xC9C0; &#xC54A;&#xC74C;](../../../.gitbook/assets/relaxtion_ex.jpg)
 
-![](.gitbook/assets/relaxtion_algorithm.jpg)
+![](../../../.gitbook/assets/relaxtion_algorithm.jpg)
 
 #### 대부분의 single-source 최단경로 알고리즘의 기본 구조 
 
@@ -83,9 +83,9 @@ d\[v\]는 현재까지 찾은 최소한의 경로의 길이가 되며 꾸준히 
 
 ### 기본 알고리즘
 
-![](.gitbook/assets/generic-single-source.jpg)
+![](../../../.gitbook/assets/generic-single-source.jpg)
 
-![](.gitbook/assets/generic-single-source2.jpg)
+![](../../../.gitbook/assets/generic-single-source2.jpg)
 
 우선 노드가 n개 일 때 엣지의 최대 개수는 n-1개가 된다.
 
