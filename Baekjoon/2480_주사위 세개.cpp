@@ -1,0 +1,2 @@
+#include<stdio.h>
+int p(int n){int t=10;for(int i=0;i<n;i++)t*=10;return t;}int d[7],a,m,i,b;int main(){for(;i<3;i++){scanf("%d",&a);d[a]++;}for(i=1;i<=6;i++)if(d[i]>=m)m=d[i],a=i;if(m>1)b=p(m--);b+=a*p(m);printf("%d",b);}
