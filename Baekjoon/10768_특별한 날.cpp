@@ -1,0 +1,2 @@
+#include<stdio.h>
+int m,d;char c[4][9]={"Before","After","Special"};char *a;int main(){scanf("%d %d",&m,&d);if(m<2)a=c[0];else if(m==2){if(d<18)a=c[0];if(d==18)a=c[2];if(d>18)a=c[1];}else a=c[1];printf("%s",a);}
