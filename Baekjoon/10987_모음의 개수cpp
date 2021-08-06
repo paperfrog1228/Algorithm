@@ -1,0 +1,10 @@
+#include<stdio.h>
+int n,i;
+char s[110];
+int main(){
+    scanf("%s",s);
+    while(s[i]!='\0'){
+        if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u') n++;i++;
+    }
+    printf("%d",n);
+}
